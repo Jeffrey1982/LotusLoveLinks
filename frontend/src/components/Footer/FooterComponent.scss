@@ -1,0 +1,45 @@
+/* FooterComponent.scss */
+
+:root {
+  --footer-font-size: 1.875rem; // Equivalent to text-3xl in Tailwind. Adjust as needed.
+  --footer-font-color: #ffffff; // Default color, adjust as needed.
+}
+
+.app-footer {
+  background-color: #2B7A78; // This is the HEX code for the DarkGreen color.
+  color: var(--footer-font-color);
+  font-size: var(--footer-font-size);
+  padding: 4rem 0; // py-16
+  text-align: center; // Ensures text is centered horizontally.
+  display: flex; // For vertical alignment
+  flex-direction: column; // Ensures children flow vertically
+  justify-content: center; // Centers children vertically
+  align-items: center; // Centers children horizontally
+}
+
+.footer-content {
+  @apply max-w-7xl mx-auto flex justify-between space-x-8;
+}
+
+.footer-section {
+  @apply w-1/4;
+
+  h4 {
+    @apply font-semibold mb-4;
+  }
+
+  a {
+    @apply block text-gray-600 hover:text-blue-500 transition duration-300;
+    
+    // Custom styles if needed
+    // e.g. padding-top: 10px;
+  }
+}
+
+.footer-line {
+  @apply w-full h-1 bg-DarkGreen mt-8;
+}
+
+.footer-copyright {
+  @apply text-center mt-8;
+}

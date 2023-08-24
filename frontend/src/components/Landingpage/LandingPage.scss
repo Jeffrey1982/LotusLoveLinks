@@ -1,0 +1,116 @@
+.hero-section {
+  background: url('../../assets/images/background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: 15%;  // Adjusting the content to the right
+
+  h1 {
+    font-size: 142px;
+    margin-bottom: 0;
+    margin-left: -96px;
+    color: #DEF2F1;
+    text-shadow: 0 0 5px #17252A;
+  }
+
+  .landing-buttons {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 12px;
+    margin-left: 48px;
+
+    .landing-link {
+      margin-right: 1rem;
+    }
+
+    .landing-button {
+      width: 200px;
+      height: 60px;
+      padding: 20px 20px;
+      background-color: #DEF2F1;
+      border: 1px solid black;
+      border-radius: 0.3rem;
+      cursor: pointer;
+      font-size: 1.4rem;
+      font-weight: bold;
+      color: #000;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}
+
+.trusted-banner {
+  padding: 24px 0;
+  background-color: rgba(6, 198, 147, 0.8);
+  color: #17252A;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 24px;
+  font-weight: normal;
+  font-family: Quicksand;
+  color: #17252A;
+}
+
+.trusted-title {
+  font-size: 24px;
+  font-weight: bold;
+  font-family: 'Quicksand', cursive;
+  color: #06c693;
+  margin-top: 1rem;
+}
+
+.Lotus Love Links-story-section {
+  background-color: white;
+  padding: 2.5rem 10%;
+  display: flex;
+  justify-content: space-between;
+
+  .left-section,
+  .right-section {
+    flex: 1;
+    padding: 0 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;  /* Main content uses Quicksand */
+
+    h2,
+    h3 {
+      font-family: 'Quicksand', cursive;  /* Titles use Tangerine */
+      font-weight: normal;
+    }
+
+    p {
+      font-family: 'Quicksand', sans-serif;  /* Content uses Quicksand */
+      margin: 1.5rem 0;
+    }
+  }
+
+  h2 {
+    font-size: 48px;
+    margin-bottom: 2rem;
+  }
+
+  .story-content,
+  .profile-guide {
+    h3 {
+      font-size: 2rem;
+      margin-top: 2rem;
+    }
+
+    p {
+      font-family: 'Quicksand', sans-serif;  /* Content uses Quicksand */
+    }
+  }
+}

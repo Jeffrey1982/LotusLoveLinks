@@ -1,0 +1,50 @@
+.photo-gallery-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; // spacing between elements
+  }
+  
+  .photo-upload {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  
+    label {
+      font-weight: 500;
+    }
+  
+    input[type="file"] {
+      padding: 8px;
+      background-color: #eee;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+  
+      &:hover {
+        background-color: #ddd;
+      }
+    }
+  }
+  
+  .photos {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); // This creates a responsive grid with min width of 150px per photo
+    gap: 15px; // spacing between photos
+  
+    .photo-item {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: 1px solid #eee;
+      border-radius: 4px;
+      overflow: hidden;
+  
+      img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+      }
+    }
+  }
+  

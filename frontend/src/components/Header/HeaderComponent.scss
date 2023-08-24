@@ -1,0 +1,45 @@
+/* Include Tailwind CSS classes directly in your component */
+
+/* Header */
+.bg-lightblue {
+  background-color: lightblue;
+}
+
+.p-4 {
+  padding: 1rem;
+}
+
+.flex {
+  display: flex;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.text-white {
+  color: #fff;
+}
+
+/* Header Title */
+.text-xl {
+  font-size: 1.25rem; /* You can adjust the size according to your needs */
+}
+
+/* Navigation */
+.ml-auto {
+  margin-left: auto;
+}
+
+/* Navigation Link */
+.no-underline {
+  text-decoration: none;
+}
+
+.text-blue-300 {
+  color: #a1daff;
+}
